@@ -1,4 +1,4 @@
-nnoremap Y y$                                                                                                                                                                      1 nnoremap + <C-a>
+nnoremap Y y$
 nnoremap + <C-a>
 nnoremap - <C-x>
 
