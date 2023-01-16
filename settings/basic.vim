@@ -18,5 +18,6 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 
+" Neovim
 " ヤンクした範囲がハイライトされる
 au TextYankPost * silent! lua vim.highlight.on_yank()
