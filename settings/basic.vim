@@ -17,3 +17,6 @@ set smartindent
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
+
+" ヤンクした範囲がハイライトされる
+au TextYankPost * silent! lua vim.highlight.on_yank()
